@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="SearchAmazon" type="Cucumber" />
+      <mapping pattern="SeachAmazon" type="PLAIN_TEXT" />
       <mapping ext="gmail" type="PLAIN_TEXT" />
       <mapping pattern="AllTestCases" type="XML" />
     </extensionMap>
