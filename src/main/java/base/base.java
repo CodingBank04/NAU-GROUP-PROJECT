@@ -18,7 +18,7 @@ public class base {
 
     public static WebDriver getDriver() throws IOException {
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("/Users/vahit.peker/NAGroupProject/src/main/java/base/global.properties");
+        FileInputStream fis = new FileInputStream("src/main/java/base/global.properties");
         prop.load(fis);
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
