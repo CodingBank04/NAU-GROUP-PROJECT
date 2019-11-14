@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/andrewaliscott/finalProject.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/beehiveacademy/NAU-GROUP-PROJECT.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Rashad\IdeaProjects" />
