@@ -1,9 +1,10 @@
 package Pages;
 
 import base.Base;
+import base.Driver;
 
 public class HomePage extends Base {
     public static void main(String[] args) {
-        driver.get (url);
+        Driver.getDriver ().get (url);
     }
 }

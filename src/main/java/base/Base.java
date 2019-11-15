@@ -19,14 +19,11 @@ import java.util.Set;
 
 public class Base {
 
-    public static WebDriver driver=driver ();
+
 
     public static String url= "http://qatest2119.na.edu/";
 
-    private static WebDriver driver(){
-        WebDriverManager.chromedriver().setup();
-        return  new ChromeDriver ();
-    }
+
 
 
 
