@@ -21,7 +21,7 @@ public class Base {
 
 
 
-    public static String url= "http://qatest2119.na.edu/";
+
 
 
 
