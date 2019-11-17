@@ -29,6 +29,15 @@ public class AcademicsPage extends Base {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     return driver;
     }
+    public static void screenShot(String TestName) throws IOException {
+
+        String fileLocation= "src\\main\\CommonFile\\AcademicsScreenshots\\ScreenShots";
+        String fileName=TestName+" "+timeStamp;
+        String fileExtension=".png";
+
+        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(src,new File(fileLocation+fileName+fileExtension));
+    }
 
     public static void go_To_HomePage (){
        driver.get (ConfigReader.getProperty ("url"));
@@ -48,15 +57,7 @@ public class AcademicsPage extends Base {
 
     }
 
-    public static void screenShot(String TestName) throws IOException {
 
-        String fileLocation= "src\\main\\CommonFile\\AcademicsScreenshots\\ScreenShots";
-        String fileName=TestName+" "+timeStamp;
-        String fileExtension=".png";
-
-        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(src,new File(fileLocation+fileName+fileExtension));
-    }
 
 
 }
