@@ -1,4 +1,4 @@
-package AdmissionsStepDef;
+package StepDef;
 
 import Pages.AcademicsPage;
 import Pages.AdmissionsPage;

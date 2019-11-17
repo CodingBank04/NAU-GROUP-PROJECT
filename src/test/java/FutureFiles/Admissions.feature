@@ -1,4 +1,6 @@
-Feature: Checking some functionality of Admissions pape
+Feature: Checking some functionality of Admissions page
+
+
   Scenario: Verifying functioanlity of APPLY NOW from drop down menu of Admissions.
     Given user navigates to the website
     When  user cliks on APPLY NOW

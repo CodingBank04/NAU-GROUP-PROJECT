@@ -7,9 +7,8 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="/Users/vahit.peker/NAU-GROUP-PROJECT1/src/test/java/FeaturesFiles/admissions.feature",
-        tags = "@test1",
-        glue= "AdmissionsStepDef")
+@CucumberOptions(features="src\\test\\java\\FutureFiles\\Admissions.feature",
+                 glue= "StepDef")
 
 public class AdmissionsRunner {
 }
