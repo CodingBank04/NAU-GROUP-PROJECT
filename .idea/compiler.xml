@@ -11,8 +11,5 @@
         <module name="NAGroupProject" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="NA-GroupProject" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
